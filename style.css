@@ -19,6 +19,10 @@ section{
 header {
     width: 100%;
     padding: 28px 6%;
+    position: sticky;
+    top: 0;
+    background-color: #eba40c45;
+    z-index: 3;
     
 }
 
@@ -50,8 +54,8 @@ header {
 
 }
 
-.nav-item.active a {
-    border-bottom: 3px solid #ffe100;
+.nav-item:active a {
+    border-bottom: 3px solid #9a9040;
     color: #1d1d1d;
 }
 
@@ -174,7 +178,7 @@ h1 span{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 60px;
+    padding-top: 120px;
 }
 
 
@@ -251,6 +255,7 @@ h1 span{
     gap: 70px;
     justify-content: center;
     margin: 30px;
+    padding-top: 120px;
 }
 
 #testimonial_chef{
