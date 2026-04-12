@@ -23,6 +23,7 @@ O projeto simula a presença online de um restaurante, destacando seus principai
 </ul> 
 
 <h2>📸 Preview</h2>
+<img src="./Assets/preview.png">
 
 
 <h2>Objetivo</h2>
