@@ -297,13 +297,14 @@ h1 span {
 
 @media screen and (max-width: 750px) {
 
-    
 
-    .nav-item, .btn-default{
+
+    .nav-item,
+    .btn-default {
         display: none;
     }
 
-     #mobile-btn {
+    #mobile-btn {
         display: block;
         cursor: pointer;
         border: none;
@@ -313,7 +314,7 @@ h1 span {
         position: fixed;
         top: 20px;
         right: 15px;
-    } 
+    }
 
 
     h1 {
@@ -326,14 +327,28 @@ h1 span {
 
     #home {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
-        margin-bottom: 10px;
+        margin-bottom: 50px;
+        gap: 50px;
+        margin-top: 0px;
+
+        h1 {
+            font-size: 20px;
+            position: absolute;
+            top: 5px;
+        }
     }
 
-    h1 {
-        font-size: 20px;
+    .shape {
+        height: 320px;
+        width: 100%;
+        margin-top: 70px;
+
+        border-radius: 100px 0 100px 0;
     }
+
+
 
     p {
         font-size: 12px;
@@ -344,28 +359,40 @@ h1 span {
 
 
 
-        
+
     }
-    .contact-container {
-            i {
-                font-size: 20px;
-            }
-        }
+
+    .contact-container i {
+        font-size: 20px;
+    }
+
+
 
     .img-container {
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
-    display: block;
+        display: flex;
+        bottom: 100px;
+        ;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
 
-        img {
-            width: 300px;
-            margin: 0 auto;
-    
-        }
+    .img-container img {
+
+        width: 250px;
+        margin: 0 auto;
+        display: block;
+        margin-top: 20px;
 
     }
 
+    #menu {
+        padding-top: 20px;
+
+        .section-title {
+            display: block;
+        }
+    }
 
     .dishes {
         display: grid;
@@ -436,67 +463,69 @@ h1 span {
         width: px;
     }
 
-    .mobile-menu{
-    display: flex;
-    background-color:#2b1e039d;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 9999999;
-    width: 0;
-    overflow: hidden; 
-    transition: .5s;
-}
+    .mobile-menu {
+        display: flex;
+        background-color: #2b1e039d;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 9999999;
+        width: 0;
+        overflow: hidden;
+        transition: .5s;
+    }
 
-    .mobile-menu.abrir-menu{
-    width: 40%;
-}
+    .mobile-menu.abrir-menu {
+        width: 40%;
+    }
 
-header {   
-    background-color: #eba40c00;
-}
+    header {
+        background-color: #eba40c00;
+    }
 
-.mobile_nav-list{
-    margin-left: 15px;
-    margin-top: 30px;
-     list-style: none;
-     display: flex;
-     flex-direction: column;
-     gap: 20px;
-    
-}
+    .mobile_nav-list {
+        margin-left: 15px;
+        margin-top: 30px;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
 
-
-.mobile-nav-item a {
-    text-decoration: none;
-    color: #f7f6f6ad;
-    font-weight: 400;
-    font-size: 15px;
+    }
 
 
-}
+    .mobile-nav-item a {
+        text-decoration: none;
+        color: #f7f6f6ad;
+        font-weight: 400;
+        font-size: 15px;
+
+
+    }
 
 
 
-.mobile-btn-default {
-    display: flex;
-    text-align: center;
-    align-items: center;
-    font-weight: 300;
-    border: none;
-    cursor: pointer;
-    background-color: #e9a209;
-    padding: 10px 20px;
-    border-radius: 15px;
-    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
-    transition: .5s ease-in-out;
-}
+    .mobile-btn-default {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        font-weight: 300;
+        border: none;
+        cursor: pointer;
+        background-color: #e9a209;
+        padding: 10px 20px;
+        border-radius: 15px;
+        box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+        transition: .5s ease-in-out;
+    }
 
-.mobile-btn-default:hover {
-    background-color: #ffe100;
-    color: #fff9ea;
-}
+    .mobile-btn-default:hover {
+        background-color: #ffe100;
+        color: #fff9ea;
+    }
+
+
 
 
 }
