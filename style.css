@@ -21,7 +21,7 @@ header {
     padding: 28px 6%;
     position: sticky;
     top: 0;
-    background-color: #eba40c45;
+    background-color: #eba40c82;
     z-index: 3;
 
 }
@@ -304,6 +304,22 @@ h1 span {
         display: none;
     }
 
+
+    
+
+    .shape-header{
+        position: absolute;
+        top: 0px;
+        left: 0;
+        z-index: -1;
+        width: 100vw;
+        height: 80px;
+        background-color: #f4d183;
+        display: block;
+    }
+
+
+
     #mobile-btn {
         display: block;
         cursor: pointer;
@@ -337,6 +353,7 @@ h1 span {
             font-size: 20px;
             position: absolute;
             top: 5px;
+            margin-right: 10px;
         }
     }
 
